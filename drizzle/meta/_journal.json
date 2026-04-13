@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1776067980962,
+      "tag": "0000_charming_doctor_octopus",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1776068111152,
+      "tag": "0001_naive_sugar_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1776070381336,
+      "tag": "0002_even_slayback",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO income_sources (name, nameEn, amount) VALUES\n  ('工资A', 'Salary A', 14000.00),\n  ('工资B', 'Salary B', 8900.00);\n\nINSERT INTO fixed_expenses (name, nameEn, amount) VALUES\n  ('房贷', 'Mortgage', 5000.00),\n  ('交通', 'Transportation', 1600.00),\n  ('高速', 'Highway', 2000.00),\n  ('停车', 'Parking', 400.00),\n  ('物业', 'Property Fee', 280.00),\n  ('水电煤', 'Utilities', 300.00),\n  ('宽带', 'Broadband', 200.00);\n\nINSERT INTO flexible_budgets (name, nameEn, budgetAmount) VALUES\n  ('餐饮', 'Dining', 3000.00),\n  ('备用金', 'Reserve Fund', 2000.00),\n  ('用品', 'Supplies', 1000.00);\n\nINSERT INTO repayment_plans (name, nameEn, amount) VALUES\n  ('二姐', 'Sister', 3000.00),\n  ('妈咪', 'Mom', 3000.00);\n\nINSERT INTO savings (totalAmount) VALUES (0.00)",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway05.us-east-1.prod.aws.tidbcloud.com --port 4000 --user erHCP1KMnWUXL8j.root --database eR9RHgTyafwmLwWHb4aYUN --execute INSERT INTO income_sources (name, nameEn, amount) VALUES\n  ('工资A', 'Salary A', 14000.00),\n  ('工资B', 'Salary B', 8900.00);\n\nINSERT INTO fixed_expenses (name, nameEn, amount) VALUES\n  ('房贷', 'Mortgage', 5000.00),\n  ('交通', 'Transportation', 1600.00),\n  ('高速', 'Highway', 2000.00),\n  ('停车', 'Parking', 400.00),\n  ('物业', 'Property Fee', 280.00),\n  ('水电煤', 'Utilities', 300.00),\n  ('宽带', 'Broadband', 200.00);\n\nINSERT INTO flexible_budgets (name, nameEn, budgetAmount) VALUES\n  ('餐饮', 'Dining', 3000.00),\n  ('备用金', 'Reserve Fund', 2000.00),\n  ('用品', 'Supplies', 1000.00);\n\nINSERT INTO repayment_plans (name, nameEn, amount) VALUES\n  ('二姐', 'Sister', 3000.00),\n  ('妈咪', 'Mom', 3000.00);\n\nINSERT INTO savings (totalAmount) VALUES (0.00)",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 2551
+}
